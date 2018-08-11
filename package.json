@@ -1,14 +1,14 @@
 {
-  "name": "bitcore-build-dash",
+  "name": "bitcore-build-mue",
   "version": "0.8.0",
-  "description": "A helper for common tasks to build bitcore-dash modules'",
+  "description": "A helper for common tasks to build bitcore-mue modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dashpay/bitcore-build-dash"
+    "url": "git://github.com/sotblad/bitcore-build-mue"
   },
   "keywords": [
     "bitcore"
@@ -37,9 +37,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dashpay/bitcore-build-dash/issues"
+    "url": "https://github.com/sotblad/bitcore-build-mue/issues"
   },
-  "homepage": "https://github.com/dashpay/bitcore-build-dash",
+  "homepage": "https://github.com/sotblad/bitcore-build-mue",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
