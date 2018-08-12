@@ -131,7 +131,7 @@ function startGulp(name, opts) {
     if (name !== 'lib') {
       browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external bitcore-lib-mue -o ' + fullname + '.js';
     } else {
-      browserifyCommand = browserifyPath + ' --require ./index.js:bitcore-lib-mue -o bitcore-lib-mue.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:bitcore-lib-mue -o muecore-lib.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([
